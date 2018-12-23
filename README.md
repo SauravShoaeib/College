@@ -1,6 +1,6 @@
 # College
 
-This repository contains college academic projects and hobby creations.
+This repository contains college academic projects.
 
 College Attended: Hunter College
 
