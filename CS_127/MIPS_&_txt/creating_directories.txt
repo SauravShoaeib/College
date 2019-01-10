@@ -1,0 +1,11 @@
+#Saurav Hossain
+#09/27/18
+#Unix Script
+#Write an Unix shell script that does the following: creates a directory, projectFiles.
+#Creates 3 additional directories (as subdirectories of projectFiles): source, data, and results.
+
+mkdir projectFiles
+cd projectFiles
+mkdir source
+mkdir data
+mkdir results

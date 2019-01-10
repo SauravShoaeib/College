@@ -1,0 +1,11 @@
+#Saurav Hossain
+#10/30/18
+#A simplified machine language program that loops through the numbers 10, 20, 30, .., 100
+
+ADDI $s2, $zero, 100
+ADDI $s0, $zero, 10 
+ADDI $s1, $zero, 10  
+AGAIN: ADD $s0, $s0, $s1
+BEQ $s0, $s2, DONE
+J AGAIN
+DONE:  #To break out of the loop

@@ -1,0 +1,8 @@
+#Saurav Hossain
+#10/08/18
+#Arithmetic Circuit
+
+out1 = (in1 and in2)
+out2 = (in1 and (not in2)) or ((not in1) and in2)
+out3 = (not in2)
+

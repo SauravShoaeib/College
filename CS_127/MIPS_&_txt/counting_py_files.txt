@@ -1,0 +1,5 @@
+#Saurav Hossain
+#10/30/18
+#Counts number of python files in a directory
+
+ls -l | grep ".py" | wc -l
